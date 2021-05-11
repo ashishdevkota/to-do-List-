@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+             <h1 title="page-banner">TASK TO DO </h1>
+           
+            <form id="search-task">
+               <input type="text" placeholder="Search task"> 
+            </form>
+            </div>
+        </header>
+        <div id="list-task">
+            <h2 class="title">My Tasks</h2>
+            <ul>
+                <li>
+                    <span class="name"> Go To GYM</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name"> Do Assignment</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Tuberclosis Appoinment</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-task">
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide all Task</label>
+            <input type="text" placeholder="Add a task">
+            <button>Add</button>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">contact</li>
+            </ul>
+            <div class="panel active" id="about">
+                <p>to do Application</p>
+                <p>This application is made using html5,css3 and javaScript only.
+                   We can do many things here:<br>
+                * add new taks<br>
+                * delete completed taks<br>
+                * Search existing tasks
+                </p> 
+            </div>
+             <div class="panel" id=contact>
+                <p>Ashish Devkota</p>
+                 <p>For more information: <a href="mailto:ashishdevkota03@gmail.com">ashishdevkota03@gmail.com</a> </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--add script file-->
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

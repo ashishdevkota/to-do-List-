@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Tahoma;
+    color:#444;
+    letter-spacing:1px;
+    background: linear-gradient(360deg, #38aecc 10%, #347fb9 360%);
+}
+
+h1,h2{
+    font-weight: normal;
+}
+
+#wrapper{  
+    width:90%;
+    max-width:960px;
+    margin:20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing:border-box;
+    padding: 0 0 20px;
+    border: 1px solid lightgray;
+background-color: #fff;  }
+
+#page-banner{
+       background:#eee;
+       padding:10px 0;
+   }
+
+#page-banner h1,#page-banner p{
+    width:100%;
+    text-align:center;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width:90%;
+    max-width:300px;
+    margin:20px auto;
+    display:block;
+    padding:8px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    font-size: 16px;
+    color:#444;
+}
+
+#list-task ,#add-book{
+    margin: 30px;
+}
+
+#list-task ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#list-task li{
+    padding:20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    
+}
+
+#list-task li:hover{
+    border-color:#1ba733;
+    color:#FA19FA;
+}
+
+.delete{
+    background:#9361bf;
+    float:right;
+    padding:6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color:white;
+}
+
+.delete:hover{
+    background: rgb(146, 12, 12);
+}
+
+#add-task{
+    width:400px;
+    margin:0 auto;
+}
+
+#add-task input{
+    display:block;
+    margin:10px 0;
+    padding:10px;
+    border:1px solid #ccc;
+    font-size:16px;
+    border-radius:4px 0 0 4px;
+    box-sizing:border-box;
+    width:300px;
+    float:left;
+}
+#add-task button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 0 4px 4px 0;
+    cursor:pointer;
+    width: 100px;
+    margin-top:10px;
+    border-left: 0;
+    color: white;
+}
+#add-task button:hover{
+    background:rgb(40,167,69);
+}
+
+#add-task:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#add-task label{
+    line-height:52px;
+    margin-right:180px;;
+}
+#add-task #hide{
+    width:20px;
+}
+
+#tabbed-content li{
+    display: inline-block;
+    padding: 10px 14px;
+    background: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#tabbed-content .panel{
+    display: none;
+    border:1px solid #ddd;
+    padding:0 10px;
+    border-radius: 4px;
+}
+
+#tabbed-content .panel.active{
+    display:block;
+}
+
+.panel p{
+    margin:25px;
+    color:lightslategrey
+}
