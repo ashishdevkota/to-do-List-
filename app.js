@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded',function(){
     li.appendChild(taskName);
     li.appendChild(taskBtn);
     listTask.appendChild(li);
-    
+    value=""
     })
     
     //hide task
