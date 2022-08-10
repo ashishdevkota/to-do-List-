@@ -86,35 +86,4 @@ document.addEventListener('DOMContentLoaded',function(){
 } )
 
 
-// // remove tasksusing event bubbling
-// let taskList=document.querySelector('#list-task ul');
 
-// taskList.addEventListener('click',(el)=>{
-//     if(el.target.className=="delete"){
-//         let list=el.target.parentElement;
-//         list.parentNode.removeChild(list);
-//     }
-// })
-
-// //interact with form
-// let addForm=document.forms['add-task'];
-// addForm.addEventListener('submit',(e)=>{
-//     e.preventDefault();
-
-//     const value=addForm.querySelector('input[type="text"]').value;
-
-//     //create element
-//     let li=document.createElement('li');
-//     let taskName=document.createElement('span');
-//     let deleteBtn=document.createElement('span');
-
-//    //add content
-//    deleteBtn.textContent="delete";
-//    taskName.textContent=value;
-   
-// //appen child
-// li.appendChild(taskName);
-// li.appendChild(deleteBtn);
-// taskList.appendChild(li);
-
-// })
